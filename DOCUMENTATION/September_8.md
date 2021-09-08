@@ -40,3 +40,4 @@ Now in terminal:
 4. `item1.owner = User.query.filter_by(username='jsc').first().id` stating the owner. 
 5. `item1 = Item.query.filter_by(name='Iphone 10').first()` The *first()* keyword grabs the specific object.  
 6. `db.session.add(item)` and `db.session.commit()` to add items and to commit respectively.
+7. `item1.owner` returns 1. 
